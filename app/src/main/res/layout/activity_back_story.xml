@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.babis.herome.Activities.BackStory"
+    android:background="@drawable/hero_me_gradient">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#253748"
+        android:minHeight="?attr/actionBarSize">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/topbannerbar" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick A Power"
+        android:textAlignment="center"
+        android:textColor="#fac740"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/bio_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="10dp"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        tools:text="ok lets see how this willl look like" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Primary Power"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/primary_power_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/hero_me_button"
+        android:drawableStart="@drawable/turtlepower"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:text="Turtle Power"
+        android:textColor="#fac740" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="How You Obtain It"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/secondary_power_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/hero_me_button"
+        android:drawableStart="@drawable/turtlepower"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:text="Turtle Power"
+        android:textColor="#fac740" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/hero_solid_button"
+        android:backgroundTint="#fac740"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:text="Try Again"
+        android:textColor="#10161d"
+        android:textSize="22sp" />
+
+
+</LinearLayout>
