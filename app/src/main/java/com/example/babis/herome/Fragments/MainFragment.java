@@ -75,6 +75,10 @@ public class MainFragment extends Fragment implements View.OnClickListener{
         genetic = (Button)view.findViewById(R.id.genetic_button);
         choose = (Button)view.findViewById(R.id.choose_button);
 
+        accident.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.lightning,0,R.drawable.nothing,0);
+        born.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.rocket,0,R.drawable.nothing,0);
+        genetic.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.atomic,0,R.drawable.nothing,0);
+
         accident.setOnClickListener(this);
         born.setOnClickListener(this);
         genetic.setOnClickListener(this);
@@ -130,9 +134,9 @@ public class MainFragment extends Fragment implements View.OnClickListener{
         choose.setEnabled(true);
         choose.getBackground().setAlpha(255);
 
-        accident.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.lightning,0,0,0);
-        born.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.rocket,0,0,0);
-        genetic.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.atomic,0,0,0);
+        accident.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.lightning,0,R.drawable.nothing,0);
+        born.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.rocket,0,R.drawable.nothing,0);
+        genetic.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.atomic,0,R.drawable.nothing,0);
 
 
 

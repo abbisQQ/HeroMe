@@ -32,44 +32,44 @@
         android:layout_marginTop="15dp"
         app:srcCompat="@drawable/heroes" />
 
-    <Button
-        android:id="@+id/accident_button"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/hero_me_button"
-        android:drawableStart="@drawable/lightning"
-        android:paddingLeft="5dp"
-        android:paddingRight="10dp"
-        android:text="Came By Accident"
-        android:textColor="#fac740" />
+      <Button
+          android:id="@+id/accident_button"
+          android:layout_width="300dp"
+          android:layout_height="55dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/hero_me_button"
+          android:drawableStart="@drawable/lightning"
+          android:paddingLeft="5dp"
+          android:paddingRight="10dp"
+          android:text="Came By Accident"
+          android:textColor="#fac740" />
 
-    <Button
-        android:id="@+id/genetic_button"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/hero_me_button"
-        android:drawableStart="@drawable/atomic"
-        android:paddingLeft="5dp"
-        android:paddingRight="10dp"
-        android:text="Genetic Mutation"
-        android:textColor="#fac740" />
+      <Button
+          android:id="@+id/genetic_button"
+          android:layout_width="300dp"
+          android:layout_height="55dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/hero_me_button"
+          android:drawableStart="@drawable/atomic"
+          android:paddingLeft="5dp"
+          android:paddingRight="10dp"
+          android:text="Genetic Mutation"
+          android:textColor="#fac740" />
 
-    <Button
-        android:id="@+id/born_button"
-        android:layout_width="300dp"
-        android:layout_height="55dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/hero_me_button"
-        android:drawableStart="@drawable/rocket"
-        android:paddingLeft="5dp"
-        android:paddingRight="10dp"
-        android:text="Born With Them"
-        android:textColor="#fac740" />
+      <Button
+          android:id="@+id/born_button"
+          android:layout_width="300dp"
+          android:layout_height="55dp"
+          android:layout_gravity="center_horizontal"
+          android:layout_marginTop="15dp"
+          android:background="@drawable/hero_me_button"
+          android:drawableStart="@drawable/rocket"
+          android:paddingLeft="5dp"
+          android:paddingRight="10dp"
+          android:text="Born With Them"
+          android:textColor="#fac740" />
 
     <Button
         android:id="@+id/choose_button"

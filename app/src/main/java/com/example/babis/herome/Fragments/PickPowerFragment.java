@@ -85,6 +85,15 @@ public class PickPowerFragment extends Fragment implements View.OnClickListener 
         webBtn = (Button)view.findViewById(R.id.web_button);
         backstoryBtn = (Button)view.findViewById(R.id.backstory_button);
 
+
+        turtleBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.turtlepower,0,R.drawable.nothing,0);
+        lightingBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.thorshammer,0,R.drawable.nothing,0);
+        flightBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.supermancrest,0,R.drawable.nothing,0);
+        webBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.spiderweb,0,R.drawable.nothing,0);
+        laserBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.laservision,0,R.drawable.nothing,0);
+
+
+
         laserBtn.setOnClickListener(this);
         turtleBtn.setOnClickListener(this);
         flightBtn.setOnClickListener(this);
@@ -139,11 +148,11 @@ public class PickPowerFragment extends Fragment implements View.OnClickListener 
         backstoryBtn.setEnabled(true);
         backstoryBtn.getBackground().setAlpha(255);
 
-        turtleBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.turtlepower,0,0,0);
-        lightingBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.thorshammer,0,0,0);
-        flightBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.supermancrest,0,0,0);
-        webBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.spiderweb,0,0,0);
-        laserBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.laservision,0,0,0);
+        turtleBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.turtlepower,0,R.drawable.nothing,0);
+        lightingBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.thorshammer,0,R.drawable.nothing,0);
+        flightBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.supermancrest,0,R.drawable.nothing,0);
+        webBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.spiderweb,0,R.drawable.nothing,0);
+        laserBtn.setCompoundDrawablesRelativeWithIntrinsicBounds(R.drawable.laservision,0,R.drawable.nothing,0);
 
 
         Button btn = (Button)v;
